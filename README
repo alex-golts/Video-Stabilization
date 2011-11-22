@@ -1,0 +1,8 @@
+1. stabilize_camera.m
+Stabilizes an input video using a video and gyro samples as input.
+
+2. meshwarp.m
+Computes the frame warping transformation from the gyro samples.
+
+3. camera_param_search.m
+Calibrates the camera using a video, gyro samples and features from a feature tracker. Recovers gyro delay, focal length, shutter speed, etc.
